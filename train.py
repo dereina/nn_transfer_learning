@@ -425,7 +425,6 @@ class Classifier():
         self.fineTunning()
 
 if __name__ == "__main__":
-    print("joe")
     parser = argparse.ArgumentParser(description="Image Classifier")
 
 
