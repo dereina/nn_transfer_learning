@@ -1,6 +1,6 @@
 # deep_learning
 
-The training deals with imbalanced data by using a SigmoidFocalCrossEntropy loss function, class weights for weighted updates and image data augmentation. It uses  a Transfer Learning aproac., There are many networks and every one needs a preprocessing function usually to convert from [0 255] to [0, 1] or [-1 1], helper functions for doing that are provided. 
+The training deals with imbalanced data by using a SigmoidFocalCrossEntropy loss function, class weights for weighted updates and image data augmentation. It uses  a Transfer Learning aproach. There are many networks and every one needs a preprocessing function usually to convert from [0 255] to [0, 1] or [-1 1], helper functions for doing that are provided. 
 
 # Train, see default arguments in the script
 
