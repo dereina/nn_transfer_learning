@@ -116,7 +116,7 @@ class Classifier():
 
         self.num_classes, self.num_files = countDirectories(self.images_path)
 
-        self.steps_per_epoch =  np.floor(self.num_files / self.batch_size )
+        self.steps_per_epoch =  np.floor(self.train_test_split * self.num_files / self.batch_size )
         self.preprocessing_function = None
 
     def buildNetwork(self):
